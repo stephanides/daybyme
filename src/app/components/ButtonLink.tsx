@@ -13,7 +13,7 @@ export const ButtonLink = ({
     target="_blank"
     rel="noopener noreferrer"
   >
-    <span className="relative top-[2px]">{children}</span>
+    <span className="relative top-[2px] text-white">{children}</span>
     <ArrowTop />
   </a>
 );
